@@ -1,0 +1,11 @@
+:root{
+    --mi-variable: green;
+}
+
+h1{
+    color: var(--mi-variable)
+}
+
+a{
+    color: var(--mi-variable)
+}

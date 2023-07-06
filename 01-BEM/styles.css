@@ -1,0 +1,73 @@
+/* 
+BEM =  Bloque Elemento Modificador
+
+.bloque
+.bloque__elemento
+.bloque__elemento--modificador
+*/
+
+/* 
+Estilos sin usar BEM
+
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+
+.cards .card{
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightskyblue;
+}
+
+.cards .card h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+} 
+
+*/
+
+/* Estilos con BEM */
+.cards {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 5px;
+}
+
+.cards__card{
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightskyblue;
+}
+
+.card__title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+} 
+
+.card__link--rojo{
+    background: red;
+} 
